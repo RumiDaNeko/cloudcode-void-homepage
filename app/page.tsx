@@ -8,7 +8,8 @@ import { useRouter } from "next/navigation";
 
 const menuItems = [
   { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
-  { label: 'Dashboard', ariaLabel: 'Access \'s dashboard', link: 'https://get-void.cloudcode.site' },
+  { label: 'Dashboard', ariaLabel: 'Access the dashboard', link: 'https://get-void.cloudcode.site' },
+  { label: 'Panel', ariaLabel: 'Access the panel', link: 'https://panel-void.cloudcode.site' },
 ];
 
 const socialItems = [
