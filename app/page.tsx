@@ -102,7 +102,7 @@ spotlightColor="#5227FF"
 >
   <div className="text-2xl" style={{width: "100%", height: "100%", color:"white", display:"flex",flexDirection:"column", justifyContent: "center", alignItems: "center"}}>
     <h1 className={ isSmall ? toosmall ? "text-4xl mb-8" : "text-5xl mb-8" : "text-6xl mb-8"} >Cloudcode <span style={{background: "linear-gradient( #FF9FFC, #5227FF, #B19EEF)",  WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent"}}>void</span></h1>
-    <p className=" mb-6" style={{ fontSize: isSmall ? toosmall ? "20px" : "25px" : "30px"}}>Free server for every minecraft needs</p>
+    <p className=" mb-6" style={{ fontSize: isSmall ? toosmall ? "20px" : "25px" : "30px"}}>Free server for every minecraft needs, 24/7, start anytime anywhere, BS? nah, also what is an credit card, can it be eaten?</p>
     <div style={{width: "100%", height: "100px", display:"flex", flexDirection: "row", alignItems: "center", justifyContent:"center"}}>
       <div onClick={() => {routers.push("https://get-void.cloudcode.site")}} className="rounded-xl  active:scale-95 transition-transform duration-100 flex items-center justify-center select-none" style={{ width: "30%", height: "50%", background:"#5227FF", color: "white", fontSize: isSmall ? "20px" : "17px"}} >{toosmall ? "Start" : "Start the journey!"} </div>
     </div>
